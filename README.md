@@ -80,6 +80,13 @@ void printMessage() {
 }
 ```
 
+
+ผลการทดสอบ
+
+![Output example](images/outputex.png)
+ 
+
+
 ## 4. การใช้งานอื่น ๆ
 
 ```cpp
@@ -178,11 +185,12 @@ void loop() {
  
 
 void printMessage() {
-  Serial.println("Hello World");
+  Serial.print("->");
+  Serial.println(micros());
 }
   
-  
 ```
-
+![Output example 2](images/outputex2.png)
 
 หวังว่าจะมีประโยชน์สำหรับคนมองหาไลบรารี่ที่ช่วยอำนวยความสะดวกในการเรียกใช้ millis() หรือ micros() กันนะครับ
+ 

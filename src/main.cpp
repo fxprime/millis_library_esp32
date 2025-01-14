@@ -54,6 +54,7 @@ void loop() {
  
 
 void printMessage() {
-  Serial.println("Hello World");
+  Serial.print("->");
+  Serial.println(micros());
 }
   
